@@ -80,7 +80,7 @@ body {
   margin-right: 30px;
   column-gap: 20px;
   row-gap: 40px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 @media(max-width: 1800px){
