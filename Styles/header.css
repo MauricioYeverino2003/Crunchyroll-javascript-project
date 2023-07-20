@@ -16,6 +16,13 @@
   justify-content: flex-start;
   align-items: center;
   padding-left: 270px;
+  transition: padding-left 0.25s;
+}
+
+@media(max-width: 1230px){
+  .header-left{
+    padding-left: 0px;
+  }
 }
 
 .header-right{
@@ -26,6 +33,13 @@
   justify-content: flex-end;
   align-items: center;
   padding-right: 250px;
+  transition: padding-right 0.25s;
+}
+
+@media(max-width: 1230px){
+  .header-right{
+    padding-right: 0;
+  }
 }
 
 .header-crunchyroll-href{
