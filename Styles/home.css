@@ -58,7 +58,7 @@ body {
 
 /* Top picks*/
 
-.top-picks-sign{
+.section-sign{
   padding-top: 25px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -72,7 +72,7 @@ body {
   border-bottom-color: lightblue;
 }
 
-.top-picks-section{
+.section{
   background-color: black;
   display: grid;
   margin-top: 30px;
@@ -139,11 +139,6 @@ body {
 
 .selection:hover{
   background-color: rgb(20, 20, 20);
-
-}
-
-.selection-image-container{
-
 
 }
 
