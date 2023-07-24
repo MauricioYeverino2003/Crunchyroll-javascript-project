@@ -5,7 +5,6 @@ const listAllElements = [
     info: 'Subtitled',
     src: 'Images/Posters/one-piece-poster.jpg',
     link: 'https://www.crunchyroll.com/es/series/GRMG8ZQZR/one-piece',
-    id: '001'
   },
 
   {
@@ -13,7 +12,6 @@ const listAllElements = [
     info: 'Sub | Dub',
     src: 'Images/Posters/hells-paradise-poster.jpg',
     link: 'https://www.crunchyroll.com/series/GJ0H7Q5ZJ/hells-paradise',
-    id: '002'
   },
 
   {
@@ -21,7 +19,6 @@ const listAllElements = [
     info: 'Sub | Dub',
     src: 'Images/Posters/digimon-adventures-poster.jpg',
     link: 'https://www.crunchyroll.com/series/GYEX24PV6/digimon-adventure-2020',
-    id: '003'
   },
 
   {
@@ -29,42 +26,41 @@ const listAllElements = [
     info: 'Sub | Dub',
     src: 'Images/Posters/darling-in-the-franxx.jpg',
     link: 'https://www.crunchyroll.com/series/GY8VEQ95Y/darling-in-the-franxx',
-    id: '004'
   },
 
   {
     name: 'Demon Slayer: Kimetsu no Yaiba',
     info: 'Sub | Dub',
     src: 'Images/Posters/demon-slayer-poster.jpg',
-    link: 'https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba'
+    link: 'https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba',
   },
 
   {
     name: 'The World God Only Knows',
     info: 'Subtitled',
     src: 'Images/Posters/the-world-only-god-knows-poster.jpg',
-    link: 'https://www.crunchyroll.com/series/GR9PV5MD6/the-world-god-only-knows'
+    link: 'https://www.crunchyroll.com/series/GR9PV5MD6/the-world-god-only-knows',
   },
 
   {
     name: 'In Another World With My Smartphone',
     info: 'Sub | Dub',
     src: 'Images/Posters/in-another-world-with-my-smartphone-poster.jpg',
-    link: 'https://www.crunchyroll.com/series/GYQ4ZWV46/in-another-world-with-my-smartphone'
+    link: 'https://www.crunchyroll.com/series/GYQ4ZWV46/in-another-world-with-my-smartphone',
   },
 
   {
     name: 'AMAIM Warrior at the Borderline',
     info: 'Sub | Dub',
     src: 'Images/Posters/amaim-warrior-at-the-borderline-poster.jpg',
-    link: 'https://www.crunchyroll.com/series/GJ0H7QXE2/amaim-warrior-at-the-borderline'
+    link: 'https://www.crunchyroll.com/series/GJ0H7QXE2/amaim-warrior-at-the-borderline',
   },
 
   {
     name: 'MOBILE SUIT GUNDAM UNICORN RE:0096',
     info: 'Subtitled',
     src: 'Images/Posters/mobile-suit-gundam-unicorn-poster.jpg',
-    link: 'https://www.crunchyroll.com/series/G6MGP9W76/mobile-suit-gundam-unicorn-re0096'
+    link: 'https://www.crunchyroll.com/series/G6MGP9W76/mobile-suit-gundam-unicorn-re0096',
   },
 
   {
@@ -453,7 +449,6 @@ const listAllElements = [
   }
 
 ]
-
 
 /*
 {

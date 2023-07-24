@@ -56,139 +56,34 @@ body {
   color: orange;
 }
 
-/* Top picks*/
-
-.section-sign{
-  padding-top: 25px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+.bottom-section{
   background-color: black;
+  display: flex;
+  flex-direction: column;  /* Stack elements vertically */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 200px;
+}
+
+.bottom-text{
   color: white;
   font-family: Lato;
-  font-weight: 700;
-  font-size: 24px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: lightblue;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 25px;
 }
 
-.section{
-  background-color: black;
-  display: grid;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-  column-gap: 20px;
-  row-gap: 40px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-@media(max-width: 1780px){
-  .top-picks-section{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media(max-width: 1630px){
-  .top-picks-section{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media(max-width: 1480px){
-  .top-picks-section{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media(max-width: 1230px){
-  .top-picks-section{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media(max-width: 1080px){
-  .top-picks-section{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media(max-width: 750px){
-  .top-picks-section{
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-
-@media(max-width: 400px){
-  .top-picks-section{
-    grid-template-columns: 1fr;
-    align-items: center;
-    ;
-  }
-
-  .selection{
-    width: 330px;
-  }
-}
-
-.selection{
-  background-color: black;
-  transition: background-color 0.15s;
-}
-
-.selection:hover{
-  background-color: rgb(20, 20, 20);
-
-}
-
-.selection-image-selected{
-  width: 100%;
-}
-
-.selection-info{
-  display: flex;
-  flex-direction: column;
-}
-
-.selection-title{
-  color: white;
+.view-all-button{
   font-family: Lato;
   font-weight: 700;
-  font-size: 18px;
-  padding-top: 5px;
-}
-
-.selection-lang-buttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 8px;
-  padding-bottom: 5px;
-}
-
-.selection-lang{
-  color: gray;
-  font-family: Lato;
-  font-size: 12px;
-}
-
-.selection-buttons{
-  padding-right: 5px;
-}
-
-.selection-buttons-saved{
-  padding: 0;
-  height: 30px;
-  width: 30px;
+  font-size: 20px;
+  background-color: orange;
   border: none;
+  padding: 15px 60px 15px 60px;
   cursor: pointer;
+  transition: padding 0.15s;
 }
 
-.selection-buttons-saved-img{
-  height: 30px;
-  width: 30px;
+.view-all-button:hover{
+  padding: 13px 50px 13px 50px;
 }
-
-
-

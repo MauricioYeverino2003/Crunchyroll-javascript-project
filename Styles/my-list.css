@@ -1,0 +1,11 @@
+body{
+  background-color: black;
+  margin: 0;
+}
+
+.padding{
+ height: 66px;
+ border-bottom-style: solid;
+ border-bottom-width: 2px;
+ border-bottom-color: rgb(40, 40, 40);
+}

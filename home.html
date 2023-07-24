@@ -4,6 +4,7 @@
     <title>Crunchyroll Clone</title>
     <link rel="stylesheet" href="Styles/home.css">
     <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/section.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,17 +25,17 @@
             Browse
           </button>
         </a>
-        <a class="header-crunchyroll-href">
+        <a href="manga.html" class="header-crunchyroll-href">
           <button class="header-left-button">
             Manga
           </button>
         </a>
-        <a class="header-crunchyroll-href">
+        <a href="games.html" class="header-crunchyroll-href">
           <button class="header-left-button">
             Games 
           </button>
         </a>
-        <a class="header-crunchyroll-href">
+        <a href="news.html" class="header-crunchyroll-href">
           <button class="header-left-button">
             News 
           </button>
@@ -44,19 +45,19 @@
 
       <div class="header-right">
 
-        <a class="header-crunchyroll-href">
+        <a href="browse.html" class="header-crunchyroll-href">
           <button class="header-right-button"> 
             <img class="header-right-img" src="Images/Home-buttons/search-logo.jpg">
           </button>
         </a>
 
-        <a class="header-crunchyroll-href">
+        <a href="my-list.html" class="header-crunchyroll-href">
           <button class="header-right-button"> 
             <img class="header-right-img" src="Images/Home-buttons/saved-logo.jpg">
           </button>
         </a>
 
-        <a class="header-crunchyroll-href">
+        <a href="profile.html" class="header-crunchyroll-href">
           <button class="header-right-button"> 
             <img class="header-right-pfp" src="Images/Home-buttons/pfp.jpg">
           </button>
@@ -85,8 +86,29 @@
       <!--content injected through home.js-->
     </div>
 
-    <script src="Data/top.js"></script>
-    <script src="Data/popular.js"></script>
+    <div class="section-sign">Top Rated</div>
+    <div class="section js-top-rated-section">
+      <!--content injected through home.js-->
+    </div>
+
+    <div class="section-sign">Binge Watch</div>
+    <div class="section js-binge-watch-section">
+      <!--content injected through home.js-->
+    </div>
+
+    <div class="bottom-section">
+      <div class="bottom-text">
+        You have reached the end of the feed
+      </div>
+      <a href="browse.html">
+        <button class="view-all-button">
+          VIEW ALL
+        </button>
+      </a>
+    </div>
+
+    <script src="Data/list.js"></script>
+    <script src="Data/list-by-section.js"></script>
     <script src="Data/saved.js"></script>
     <script src="Scripts/home.js"></script>
 

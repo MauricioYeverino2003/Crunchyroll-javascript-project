@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Saved List</title>
+    <link rel="stylesheet" href="Styles/my-list.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/section.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class= "header-section">
+      <div class="header-left">
+
+        <a href="home.html" class="header-crunchyroll-href">
+          <button class="header-crunchyroll-button">
+            <img class="header-crunchyroll-logo" src="Images/Logos/crunchyroll-logo.jpg">
+          </button>
+        </a>
+        <a href="browse.html" class="header-crunchyroll-href">
+          <button class="header-left-button">
+            Browse
+          </button>
+        </a>
+        <a href="manga.html" class="header-crunchyroll-href">
+          <button class="header-left-button">
+            Manga
+          </button>
+        </a>
+        <a href="games.html" class="header-crunchyroll-href">
+          <button class="header-left-button">
+            Games 
+          </button>
+        </a>
+        <a href="news.html" class="header-crunchyroll-href">
+          <button class="header-left-button">
+            News 
+          </button>
+        </a>
+
+      </div>
+
+      <div class="header-right">
+
+        <a href="browse.html" class="header-crunchyroll-href">
+          <button class="header-right-button"> 
+            <img class="header-right-img" src="Images/Home-buttons/search-logo.jpg">
+          </button>
+        </a>
+
+        <a href="my-list.html" class="header-crunchyroll-href">
+          <button class="header-right-button"> 
+            <img class="header-right-img" src="Images/Home-buttons/saved-logo.jpg">
+          </button>
+        </a>
+
+        <a href="profile.html" class="header-crunchyroll-href">
+          <button class="header-right-button"> 
+            <img class="header-right-pfp" src="Images/Home-buttons/pfp.jpg">
+          </button>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="padding"> <!--adds padding to discard space header takes--></div>
+    <div class="section-sign">Watchlist</div>
+    <div class="section js-saved-section">
+    <!--content injected through my-list.js-->
+    </div>
+
+    <script src="Data/list.js"></script>
+    <script src="Data/saved.js"></script> 
+    <script src="Scripts/my-list.js"></script>
+
+  </body>
+</html>
