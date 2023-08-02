@@ -1,0 +1,254 @@
+body{
+  margin: 0;
+}
+
+.padding{
+  height: 60px;
+}
+
+.banner-image{
+  position: relative;
+  z-index: 1;
+  width: 1903px;
+  vertical-align: middle;
+}
+
+.banner-logo{
+  position: absolute;
+  z-index: 2;
+  top: 550px;
+  left: 1300px;
+}
+
+.banner-button{
+  position: absolute;
+  z-index: 2;
+  width: 247px;
+  height: 59px;
+  border: none;
+  background-color: #EF4323;
+  color: white;
+  font-size: 30px;
+  font-family: Lato;
+  font-weight: 700;
+  top: 550px;
+  left: 830px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.banner-button:hover{
+  background-color: white;
+  color: #EF4323;
+}
+
+.games-section{
+  background: linear-gradient(to bottom,#23444d 0%,#308184 61%,#20bdba 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.game-elements-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 90px;
+}
+
+.game-elements-title{
+  font-size: 45px;
+  font-family: Helvetica;
+  font-weight: 750;
+  color: #2cbdbb;
+  width: fit-content;
+  padding-top: 58px;
+  margin-bottom: 42px;
+}
+
+.game-elements-text{
+  font-family: Lato;
+  font-size: 25px;
+  color: #fff;
+  width: 585px;
+  text-align: center;
+  line-height: 40px;
+  padding-bottom: 85px;
+}
+
+.game-elements{
+  width: 1150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 60px;
+}
+
+.element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element-img-container{
+  width: 350px;
+  height: 400px;
+  box-shadow: 0 0 1rem 0.25rem rgba(0,10,0,0.25);
+  cursor: pointer;
+}
+
+.element-img{
+  height: 100%;
+  width: 100%;
+}
+
+.element-title{
+  color: #FFFFFF;
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px 0px 25px;
+  text-align: center;
+}
+
+.game-button{
+  border: none;
+  background-color: #213944;
+  color: white;
+  font-size: 24px;
+  font-family: Lato;
+  font-weight: 700;
+  padding: 8px 13px;
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.game-button:hover{
+  color: #213944;
+  background-color: white;
+}
+
+.instagram-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.instagram-images{
+  margin-bottom: 30px;
+}
+
+.insta-img{
+  height: 329px;
+  width: 329px;
+  object-fit: cover;
+  margin-right: 10px;
+  transition: opacity 0.25s;
+}
+
+.insta-img:hover{
+  opacity: 0.75;
+}
+
+.instagram-link{
+  color: #2cbdbb;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: helvetica;
+  margin-bottom: 30px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.links-section{
+  display: flex;
+  flex-direction: center;
+  align-items: row;
+}
+
+.crunchy-games-logo{
+  width: 300px;
+  height: 45px;
+  fill:#f47521;
+  transition: fill 0.25s;
+}
+
+.crunchy-games-logo:hover{
+  fill: white;
+}
+
+.links-credits{
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 350px;
+}
+
+.links-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+  ul li {
+    margin-bottom: 12px; /* Adjust this value as needed */
+    font-size: 18px;
+  }
+
+.link-element{
+  font-family: Lato;
+  font-weight: 400;
+  color: white;
+}
+
+.credits-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: Lato;
+  font-weight: 400;
+  color: white;
+}
+
+.links-section{
+  background-color: #213944;
+}
+
+.social-media{
+  width: 50%;
+}
+
+.social{
+  list-style-type: none;
+  margin-top: 175px;
+  margin-right: 100px;
+  padding: 0;
+}
+
+.social li{
+  display: inline;
+  margin-right: 18px;
+}
+
+.social a{
+  display: inline-flex;
+  align-items: center;;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: #2cbdbb;
+  fill: #213944;
+  transition: background-color 0.3s, fill 0.3s;
+}
+
+.social a:hover{
+  background-color: #213944;
+  fill: #2cbdbb;
+}
+
+.svg-icon{
+  height: fit-content;
+  width: fit-content;
+  margin: 15px;
+}

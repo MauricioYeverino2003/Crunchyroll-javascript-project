@@ -1,0 +1,125 @@
+body{
+  margin: 0;
+  background-color: black;
+  height: 2000px;
+}
+
+.header-decoration{
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(270deg, #2ABDBB 39.17%, #FABB18 49.18%, #F47521 67.12%);
+  position: fixed;
+  top: 60px;
+}
+
+.top-link{
+  padding-top: 80px;
+  display: flex;
+  justify-content: center; /*Horizontal*/
+  align-items: center; /*Vertical*/
+}
+
+.top-link img{
+  width: 1152px;
+  height: 77px;
+}
+
+.news-container{
+  display:flex;
+  justify-content: center;
+  margin-top: 38px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.news-grid{
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+  height: 900px;
+  width: 1153px;
+}
+
+@media(max-width: 992px){
+  .news-grid{
+    display: block;
+  }
+}
+
+
+.latest-container{
+  padding-right: 12px;
+}
+
+.spotlight-container{
+  border-right: solid 1px rgb(74, 78, 88);
+  border-left: solid 1px rgb(74, 78, 88);
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+
+.features-container{
+  padding-left: 12px;
+}
+
+.latest-feature-title{
+  color: #FFFFFF;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 32px;
+  padding-bottom: 6px;
+  margin-bottom: 18px;
+  border-bottom: solid 4px rgb(244, 117, 33);
+}
+
+.spotlight-title{
+  color: #FFFFFF;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 32px;
+  padding-bottom: 6px;
+  border-bottom: solid 4px rgb(42, 189, 187);
+}
+
+.latest-content{
+  background-color: #2b2d32;
+  height: 100%;
+  padding: 0px 12px 0px 12px;
+}
+
+.hyperlink{
+  text-decoration: none;
+}
+
+.latest-element{
+  padding: 16px 0px 16px 0px;
+  border-bottom: 1px solid #4a4e58;
+}
+
+.element-img{
+  width: 100%;
+}
+
+.element-tags-date{
+  display: flex;
+  align-items: center;
+}
+
+.tags{
+  background-color: black;
+  color: #2ABDBB;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1.5px 18px 1.5px 18px;
+  border-radius: 9px;
+  text-align: center;
+  line-height: 18.5px;
+}
+
+.element-date{
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 400;
+  color: #a0a0a0;
+}

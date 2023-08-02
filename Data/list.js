@@ -1,3 +1,5 @@
+//list of all elements used.
+
 const listAllElements = [
 
   {
