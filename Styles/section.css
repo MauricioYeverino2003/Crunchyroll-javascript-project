@@ -10,14 +10,16 @@
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: lightblue;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .section{
   background-color: black;
   display: grid;
   margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
   column-gap: 20px;
   row-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
