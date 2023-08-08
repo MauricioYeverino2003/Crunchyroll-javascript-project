@@ -120,14 +120,19 @@ bingePicks.forEach((anime) => {
 document.querySelector('.js-binge-watch-section').innerHTML = bingeSectionHTML;
 
 //Saved in list objects
-savedPicks = JSON.parse(localStorage.getItem('savedPicks'));
+if(savedPicks.length !== 0){
+  savedPicks = JSON.parse(localStorage.getItem('savedPicks'));
+}
 
+//If already saved set icon
 document.querySelectorAll('.js-selection-buttons-saved').forEach((button) => {
-  savedPicks.forEach((pick) => {
-    if(pick.name === button.dataset.nameId){
-      button.querySelector('img').src = 'Images/Home-buttons/saved-logo.jpg';
-    }
-  });
+  if (savedPicks !== null){
+    savedPicks.forEach((pick) => {
+      if(pick.name === button.dataset.nameId){
+        button.querySelector('img').src = 'Images/Home-buttons/saved-logo.jpg';
+      }
+     });
+  }
 });
 
 //Saved button
@@ -138,11 +143,13 @@ document.querySelectorAll('.js-selection-buttons-saved').forEach((button)=>{ but
     //Check if its already saved
     let isRepeated = false;
 
-    savedPicks.forEach( (pick) => {
-      if(nameId === pick.name){
-        isRepeated = true;
-      }
-    });
+    if(savedPicks !== null){
+      savedPicks.forEach( (pick) => {
+        if(nameId === pick.name){
+          isRepeated = true;
+        }
+      });
+    }
 
 
     //if new element, set saved image and push element object to array
@@ -150,6 +157,7 @@ document.querySelectorAll('.js-selection-buttons-saved').forEach((button)=>{ but
       button.querySelector('img').src = 'Images/Home-buttons/saved-logo.jpg';
       //We locate element thorugh name id and add with find()
       let elementToAdd =  listAllElements.find((element) => element.name === nameId);
+      console.log(elementToAdd);
       savedPicks.push(elementToAdd);
     } 
     else { //else, set not saved image and drop from array

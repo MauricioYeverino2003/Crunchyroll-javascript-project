@@ -4,6 +4,7 @@
     <title>News</title>
     <link rel="stylesheet" href="Styles/header.css">
     <link rel="stylesheet" href="Styles/news.css">
+    <link rel="stylesheet" href="Styles/carrousel.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,7 +72,6 @@
     </div>
 
     <div class="header-decoration">
-      <!--Also fixed-->
     </div>
 
     <div class="top-link">
@@ -88,35 +88,8 @@
             Latest News
           </div>
 
-          <div class="latest-content">
-
-            <div class="latest-element">
-              
-              <div>
-                <a class="hyperlink" href="https://www.crunchyroll.com/news/latest/2023/8/1/kochi-anime-creator-award-calls-for-participants-from-japan-and-abroad">
-                  <img class="element-img" src="Images/news/latest/Kochi-Anime-Creator-news.jpg">
-                </a>
-              </div>
-
-              <div class="element-tags-date">
-                <div class="element-tags">
-                  <a href="https://www.crunchyroll.com/news" class="tags hyperlink">
-                    News
-                  </a>
-                </div>
-                <div class="element-date">
-                  Jul 31, 2023 9:20 PM PDT
-                </div>
-              </div>
-              <a class="hyperlink" href="https://www.crunchyroll.com/news/latest/2023/8/1/kochi-anime-creator-award-calls-for-participants-from-japan-and-abroad" class="element-title">
-                Kochi Anime Creator Awards Calls for Participants frm Japan and Abroad
-              </a>
-              <div class="element-author">
-                Mikikazu Komatsu
-              </div>
-
-            </div>
-
+          <div class="latest-content js-latest-content">
+            <!--Injected thorugh news.js-->
           </div>
 
         </div>
@@ -127,6 +100,108 @@
 
           <div class="spotlight-content">
 
+            <div class="spotlight-carrousel">
+              <div class="spotlight-slider">
+                <!--Injected through news.js-->
+              </div>
+              <div class="controls">
+
+                <span class="arrow left">
+                  <span class="material-symbols-outlined">
+                    arrow_back_ios
+                  </span>
+                </span>
+                <span class="arrow right">
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </span>
+
+                <ul>
+                  <li class="selected"></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+
+              </div>
+
+            </div>
+            
+          </div>
+
+          <div class="latest-feature-title">
+            Top Stories
+          </div>
+          <div class=" top-content">
+
+            <div class="top-element">
+              <a class="top-img-link" href="https://www.crunchyroll.com/news/latest/2023/8/6/my-hero-academia-announces-4th-theatrical-anime-film">
+                <img src="Images/news/Latest/my-hero-academia-top-news.jpg">
+              </a>
+              <div class="top-info">
+                  <a href="https://www.crunchyroll.com/news/movies" class="hyperlink">
+                    <div class="element-tags-2">
+                      Movies
+                    </div>
+                  </a>
+                  <div style="padding: 5px;" class="element-date">
+                    Aug 6, 2023 4:20 AM PDT
+                  </div>
+                  <div class="element-name">
+                    My Hero Academia Announces 4th Theatrical Anime Film
+                  </div>
+                  <div class="element-author">
+                    Paul Chapman
+                  </div>
+              </div>
+            </div>
+
+            <div class="top-element">
+              <a class="top-img-link" href="https://www.crunchyroll.com/news/latest/2023/8/5/kaiju-no-8-anime-smashes-japanese-tv-in-april-2024">
+                <img src="Images/news/Latest/kaiju-top-news.jpg">
+              </a>
+              <div class="top-info">
+                  <a href="news.html" class="hyperlink">
+                    <div class="element-tags-2">
+                      News
+                    </div>
+                  </a>
+                  <div style="padding: 5px;" class="element-date">
+                    Aug 5, 2023 4:50 AM PDT
+                  </div>
+                  <div class="element-name">
+                    Kaiju No. 8 Anime Smashes Japanese TV in April 2024
+                  </div>
+                  <div class="element-author">
+                    Paul Chapman
+                  </div>
+              </div>
+            </div>
+
+            <div class="top-element">
+              <a class="top-img-link" href="https://www.crunchyroll.com/news/announcements/2023/8/5/girlfriend-girlfriend-season-2-aquarion-myth-of-emotions-tearmoon-empire-crunchyroll">
+                <img src="Images/news/Latest/girlfriend-girlfriend-top-news.jpg">
+              </a>
+              <div class="top-info">
+                  <a href="https://www.crunchyroll.com/news/movies" class="hyperlink">
+                    <div class="element-tags-2">
+                      Movies
+                    </div>
+                  </a>
+                  <div style="padding: 5px;" class="element-date">
+                    Aug 5, 2023 6:00 AM PDT
+                  </div>
+                  <div class="element-name">
+                    Girlfriend, Girlfriend Season 2, AQUARION: Myth of Emotions and Tearmoon Empire are Coming to Crunchyroll
+                  </div>
+                  <div class="element-author">
+                    Kyle Cardine
+                  </div>
+              </div>
+            </div>
+
           </div>
   
         </div>
@@ -136,14 +211,19 @@
             Features
           </div>
 
-          <div class="features-content">
-
+          <div class="features-content js-features-content">
+            <!--Injected thorugh news.js-->
           </div>
 
         </div>
       </div>
 
     </div>
+
+    </div>
+    <script src="Data/newsList.js"></script>
+    <script src="Scripts/news.js"></script>
+
 
   </body>
 </html>

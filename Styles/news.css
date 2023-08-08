@@ -27,7 +27,6 @@ body{
 .news-container{
   display:flex;
   justify-content: center;
-  margin-top: 38px;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -35,7 +34,7 @@ body{
 .news-grid{
   display: grid;
   grid-template-columns: 25% auto 25%;
-  height: 900px;
+
   width: 1153px;
 }
 
@@ -69,6 +68,7 @@ body{
   font-size: 32px;
   padding-bottom: 6px;
   margin-bottom: 18px;
+  margin-top: 38px;
   border-bottom: solid 4px rgb(244, 117, 33);
 }
 
@@ -78,12 +78,13 @@ body{
   font-weight: 400;
   font-size: 32px;
   padding-bottom: 6px;
+  margin-top: 38px;
   border-bottom: solid 4px rgb(42, 189, 187);
+  margin-bottom: 18px;
 }
 
 .latest-content{
   background-color: #2b2d32;
-  height: 100%;
   padding: 0px 12px 0px 12px;
 }
 
@@ -98,14 +99,17 @@ body{
 
 .element-img{
   width: 100%;
+  margin-bottom: 18px;
 }
 
 .element-tags-date{
   display: flex;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.tags{
+.element-tags{
   background-color: black;
   color: #2ABDBB;
   font-family: Lato;
@@ -115,6 +119,35 @@ body{
   border-radius: 9px;
   text-align: center;
   line-height: 18.5px;
+  margin-right: 7px;
+  margin-bottom: 3px;
+}
+
+.element-tags-2{
+  background-color: #2b2d32;
+  color: #2ABDBB;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1.5px 18px 1.5px 18px;
+  border-radius: 9px;
+  text-align: center;
+  line-height: 18.5px;
+  margin-right: 7px;
+  margin-bottom: 3px;
+  width: fit-content;
+}
+
+.element-tags:hover{
+  background-color: #4a4e58;
+  border: solid 1px #2ABDBB;
+  padding: 0.5px 17px 0.5px 17px;
+}
+
+.element-tags-2:hover{
+  background-color: black;
+  border: solid 1px #2ABDBB;
+  padding: 0.5px 17px 0.5px 17px;
 }
 
 .element-date{
@@ -122,4 +155,62 @@ body{
   font-size: 11px;
   font-weight: 400;
   color: #a0a0a0;
+  padding-top: 11px;
+}
+
+.element-title{
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 13px;
+  line-height: 20px;
+  display: block;
+}
+
+.element-author{
+  font-family: Lato;
+  font-size: 12px;
+  color: #2ABDBB;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.element-author:hover{
+  text-decoration: underline;
+}
+
+.features-content{
+  padding: 0px 12px 0px 12px;
+}
+
+.top-element{
+  display: flex;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #4a4e58;
+}
+
+.top-img-link{
+  width: 42%;
+  margin-right: 12px;
+}
+
+.top-img-link img{
+  width: 100%;
+}
+
+.top-info{
+  width: 58%;
+}
+
+.element-name{
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 9px;
+  margin-right: 15px;
+  line-height: 20px;
+  cursor: pointer;
 }

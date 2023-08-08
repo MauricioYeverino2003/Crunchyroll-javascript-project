@@ -8,8 +8,8 @@
   font-weight: 700;
   font-size: 24px;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: lightblue;
+  border-bottom-width: 3px;
+  border-bottom-color: #2abdbb;
   margin-left: 300px;
   margin-right: 300px;
 }
@@ -20,50 +20,50 @@
   margin-top: 30px;
   margin-left: 300px;
   margin-right: 300px;
-  column-gap: 20px;
-  row-gap: 40px;
+  column-gap: 15px;
+  row-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-
+/*
 @media(max-width: 1780px){
-  .top-picks-section{
+  .section{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
 @media(max-width: 1630px){
-  .top-picks-section{
+  .section{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
 @media(max-width: 1480px){
-  .top-picks-section{
+  .section{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
 @media(max-width: 1230px){
-  .top-picks-section{
+  .section{
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
 @media(max-width: 1080px){
-  .top-picks-section{
+  .section{
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media(max-width: 750px){
-  .top-picks-section{
+  .section{
     grid-template-columns: 1fr 1fr;
   }
 }
 
 
 @media(max-width: 400px){
-  .top-picks-section{
+  .section{
     grid-template-columns: 1fr;
     align-items: center;
     ;
@@ -74,9 +74,14 @@
   }
 }
 
+*/
+
 .selection{
   background-color: black;
   transition: background-color 0.15s;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 .selection:hover{
