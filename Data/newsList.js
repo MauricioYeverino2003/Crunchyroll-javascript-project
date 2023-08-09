@@ -3,7 +3,7 @@ let latestNews = [
       title: 'Kochi Anime Creator Awards Calls for Participants frm Japan and Abroad',
       date: 'Jul 31, 2023 9:20 PM PDT',
       author: 'Mikikazu Komatsu',
-      src: 'Images/news/latest/precure-manga-artist-news.jpg',
+      src: 'Images/news/Latest/precure-manga-artist-news.jpg',
       link: 'https://www.crunchyroll.com/news/latest/2023/8/4/precure-manga-artist-futago-kamikita-gets-20th-anniversary-illustration-book',
       tags: [
         {
@@ -19,7 +19,7 @@ let latestNews = [
         title: 'Precure Manga Artist Unit Futago Kamikita Gets 20th Anniversary Illustration Book',
         date: 'Aug 3, 2023 6:33 PM PDT',
         author: 'Mikikazu Komatsu',
-        src: 'Images/news/latest/Kochi-Anime-Creator-news.jpg',
+        src: 'Images/news/Latest/Kochi-Anime-Creator-news.jpg',
         link: 'https://www.crunchyroll.com/news/latest/2023/8/1/kochi-anime-creator-award-calls-for-participants-from-japan-and-abroad',
         tags: [
           {
@@ -39,7 +39,7 @@ let latestNews = [
       title: 'hololive English VTubers Mori Calliope, Takanashi Kiara to Attend Anime Frontier as Guests of Honor',
       date: 'Aug 3, 2023 5:41 PM PDT',
       author: 'Humberto Saabedra',
-      src: 'Images/news/latest/hololive-english-vtuber-news.jpg',
+      src: 'Images/news/Latest/hololive-english-vtuber-news.jpg',
       link: 'https://www.crunchyroll.com/news/latest/2023/8/4/anime-frontier-hololive-english-mori-calliope-takanashi-kiara',
       tags: [
         {
@@ -55,7 +55,7 @@ let latestNews = [
       title: 'BLUE ENCOUNT Releases MIX MEISEI STORY Season 2 Anime 2nd Opening Theme MV',
       date: 'Aug 3, 2023 5:30 PM PDT',
       author: 'Mikikazu Komatsu',
-      src: 'Images/news/latest/blue-encount-releases-news.jpg',
+      src: 'Images/news/Latest/blue-encount-releases-news.jpg',
       link: 'https://www.crunchyroll.com/news/latest/2023/8/4/blue-encount-releases-mix-meisei-story-season-2-anime-opening-theme-mv',
       tags: [
         {
@@ -78,7 +78,7 @@ let latestNews = [
       title: 'Tezuka Productions-Produced The Fable TV Anime Unveils Teaser Trailer',
       date: 'Aug 3, 2023 9:58 PM PDT',
       author: 'Mikikazu Komatsu',
-      src: 'Images/news/latest/tekuza-productions-news.jpg',
+      src: 'Images/news/Latest/tekuza-productions-news.jpg',
       link: 'https://www.crunchyroll.com/news/latest/2023/8/4/tezuka-productions-produced-the-fable-tv-anime-unveils-teaser-trailer',
       tags: [
         {
@@ -93,7 +93,7 @@ let latestNews = [
       title: 'Backflip!! Stage Play Cast Recreate Anime Film Teaser Visual',
       date: 'Aug 3, 2023 9:30 PM PDT',
       author: 'Liam Dempsey',
-      src: 'Images/news/latest/backflip=stage-news.jpg',
+      src: 'Images/news/Latest/backflip=stage-news.jpg',
       link: 'https://www.crunchyroll.com/news/latest/2023/8/4/backflip-stage-play-cast-recreate-anime-film-teaser-visual',
       tags: [
         {
@@ -108,7 +108,7 @@ let latestNews = [
       title: 'YuruYuri Spin-off Manga Oomuro-ke Gets Anime Adaptation',
       date: 'Aug 3, 2023 8:54 PM PDT',
       author: 'Liam Dempsey',
-      src: 'Images/news/latest/yuri-yuri-spin-off-news.jpg',
+      src: 'Images/news/Latest/yuri-yuri-spin-off-news.jpg',
       link: 'https://www.crunchyroll.com/news/latest/2023/8/4/yuruyuri-spin-off-manga-oomuro-ke-gets-anime-adaptation',
       tags: [
         {
@@ -127,7 +127,7 @@ let latestNews = [
       title: 'hololive English -Advent- Twins FUWAMOCO Drop Their Demon Guard on Visual Novels, Spooky Games and... Howling?',
       date: 'Aug 3, 2023 8:00 AM PDT',
       author: 'Carolyn Burke',
-      src: 'Images/news/latest/hololive-english-advent-news.jpg',
+      src: 'Images/news/Latest/hololive-english-advent-news.jpg',
       link: 'https://www.crunchyroll.com/news/interviews/2023/8/3/fuwamoco-twins-hololive-advent-interview',
       tags: [
         {
@@ -150,7 +150,7 @@ let latestNews = [
       title: 'Watch SPY x FAMILY, Chainsaw Man, Soul Eater and More For Free on...',
       date: 'Aug 1, 2023 7:00 AM PDT',
       author: 'Guest Author',
-      src: 'Images/news/latest/spy-family-spotlight.jpg',
+      src: 'Images/news/Latest/spy-family-spotlight.jpg',
       link: 'https://www.crunchyroll.com/news/announcements/2023/8/1/watch-spy-x-family-chainsaw-man-soul-eater-and-more-for-free-on-crunchyroll',
       tags: [
         {
@@ -165,7 +165,7 @@ let latestNews = [
       title: 'Which Appliance Would You Be Reincarnated As?',
       date: 'Aug 4, 2023 9:00 AM PDT',
       author: 'Liam Dempsey',
-      src: 'Images/news/latest/which-appliance-reincarnate-spotlight.jpg',
+      src: 'Images/news/Latest/which-appliance-reincarnate-spotlight.jpg',
       link: 'https://www.crunchyroll.com/news/quizzes/2023/8/4/reincarnated-appliance-quiz',
       tags: [
         {
@@ -184,7 +184,7 @@ let latestNews = [
       title: 'EXCLUSIVE: Meet -Advent-, hololive English\'s Newest VTuber Generation!',
       date: 'Jul 31, 2023 8:00 AM PDT',
       author: 'David-Christopher Galhea',
-      src: 'Images/news/latest/advent-hololive-spotlight.jpg',
+      src: 'Images/news/Latest/advent-hololive-spotlight.jpg',
       link: 'https://www.crunchyroll.com/news/interviews/2023/8/3/fuwamoco-twins-hololive-advent-interview',
       tags: [
         {
@@ -199,7 +199,7 @@ let latestNews = [
       title: 'YOASOBI, Aimer, MAN WITH A MISSION and More Music Videos are...',
       date: 'Aug 3, 2023 9:30 AM PDT',
       author: 'Crunchyroll Official',
-      src: 'Images/news/latest/yaosobi-aimer-spotlight-spotlight.jpg',
+      src: 'Images/news/Latest/yaosobi-aimer-spotlight-spotlight.jpg',
       link: 'https://www.crunchyroll.com/news/announcements/2023/8/3/yoasobi-aimer-man-with-a-mission-music-videos-crunchyroll',
       tags: [
         {
@@ -218,7 +218,7 @@ let latestNews = [
       title: 'How the BL Exhibit at the Kadokawa Culture Museum Validated My Love of',
       date: 'Aug 1, 2023 9:00 AM PDT',
       author: 'Guest Author',
-      src: 'Images/news/latest/kadokawa-culture-museum-spotlight.jpg',
+      src: 'Images/news/Latest/kadokawa-culture-museum-spotlight.jpg',
       link: 'https://www.crunchyroll.com/news/features/2023/8/1/kadokawa-culture-museum-bl-exhibit-report',
       tags: [
         {
